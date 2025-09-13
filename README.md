@@ -25,3 +25,7 @@ https://projeto-5kdc60cdt-lunnarts-projects.vercel.app/
 ## 🚀 Como executar localmente
 1. Faça o download ou clone o repositório.
 2. Abra o arquivo `index.html` no navegador.
+
+3. ## Equipe
+4. Luanny
+5. rogenriqueR
