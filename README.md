@@ -1,0 +1,25 @@
+README.md
+
+# 🌤️ App de Clima
+
+Aplicação simples de previsão do tempo feita com **HTML, CSS e JavaScript**, consumindo a API [Open-Meteo](https://open-meteo.com/).
+
+## 📌 Funcionalidades
+- Mostra a **temperatura atual** em Fortaleza
+- Exibe **mínima e máxima do dia**
+- Informa **velocidade do vento**
+- Mostra **chuva prevista**
+- Exibe **nascer e pôr do sol**
+- Mostra **previsão para os próximos 4 dias**
+
+## 📂 Estrutura do Projeto
+```
+/clima-app
+ ├── index.html   # Estrutura da aplicação
+ ├── style.css    # Estilos (layout e cores)
+ └── script.js    # Lógica e consumo da API
+```
+
+## 🚀 Como executar localmente
+1. Faça o download ou clone o repositório.
+2. Abra o arquivo `index.html` no navegador.
