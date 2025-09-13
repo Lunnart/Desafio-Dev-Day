@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  max-width: 900px;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.4);
+}
+
+.temp {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.refresh {
+  margin-top: 10px;
+  background: #fff;
+  color: #333;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.refresh:hover {
+  background: #eee;
+  transform: scale(1.05);
+}
+
+#previsao {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.dia {
+  background: rgba(255,255,255,0.15);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}

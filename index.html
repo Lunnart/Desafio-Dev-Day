@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App de Clima</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Clima atual -->
+    <div class="card">
+      <h2>🌤️ Clima em Fortaleza</h2>
+      <p class="temp" id="temperatura">-- °C</p>
+      <p id="minmax">-- / -- °C</p>
+      <p id="vento">Vento: -- km/h</p>
+      <p id="umidade">Umidade: -- %</p>
+      <p id="chuva">Chuva: -- mm</p>
+      <p id="hora">Atualizado: --</p>
+    </div>
+
+    <!-- Horário do Sol -->
+    <div class="card">
+      <h2>☀️ Sol</h2>
+      <p id="nascer">Nascer: --</p>
+      <p id="por">Pôr: --</p>
+    </div>
+
+    <!-- Previsão próximos dias -->
+    <div class="card">
+      <h2>📅 Previsão</h2>
+      <div id="previsao"></div>
+    </div>
+
+    <button class="refresh" onclick="buscarClima()">🔄 Atualizar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
