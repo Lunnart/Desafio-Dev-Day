@@ -9,9 +9,17 @@
 <body>
   <div class="container">
 
+    <!-- Campo para escolher cidade -->
+    <div class="search-box">
+      <input type="text" id="cidade" placeholder="Digite a cidade" oninput="sugerirCidades()">
+      <div id="sugestoes"></div>
+      <button class="buscar" onclick="buscarClima()">🔍 Buscar</button>
+      <button class="gps" onclick="buscarLocalizacao()">📍 Usar minha localização</button>
+    </div>
+
     <!-- Clima atual -->
     <div class="card">
-      <h2>🌤️ Clima em Fortaleza</h2>
+      <h2 id="titulo">🌤️ Clima</h2>
       <p class="temp" id="temperatura">-- °C</p>
       <p id="minmax">-- / -- °C</p>
       <p id="vento">Vento: -- km/h</p>
