@@ -27,5 +27,6 @@ https://projeto-5kdc60cdt-lunnarts-projects.vercel.app/
 2. Abra o arquivo `index.html` no navegador.
 
 3. ## Equipe
-4. Luanny
-5. rogenriqueR
+4. Luanny https://github.com/Lunnart/Projeto
+ 
+6. Rogenrique https://github.com/Rogenrique?tab=repositories
