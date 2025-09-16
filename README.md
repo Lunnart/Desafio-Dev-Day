@@ -20,7 +20,7 @@ Aplicação simples de previsão do tempo feita com **HTML, CSS e JavaScript**, 
  └── script.js    # Lógica e consumo da API
 ```
 ## Visualze diretamente no git
-https://projeto-5kdc60cdt-lunnarts-projects.vercel.app/
+projeto-alpha-umber.vercel.app
 
 ## 🚀 Como executar localmente
 1. Faça o download ou clone o repositório.
